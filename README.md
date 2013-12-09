@@ -20,8 +20,8 @@ The `dhcp` class is a wrapper around `dhcp::server`:
 Installs a DHCP server:
 
      class { 'dhcp::server':
-       opts => ['domain-name "toto.ltd"',
-                'domain-name-servers 192.168.21.1'],
+       opts => ['option domain-name "toto.ltd"',
+                'option domain-name-servers 192.168.21.1'],
      }
 
 ## Definitions
