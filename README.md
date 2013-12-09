@@ -36,7 +36,7 @@ Creates a DHCP configuration for the given hosts:
 
     dhcp::hosts { 'workstations':
       subnet    => '192.168.1.0',
-       'hash_data' => {
+       hash_data => {
          'host1' => {
            'interfaces' => {
              'eth0'  => '00:11:22:33:44:55',
